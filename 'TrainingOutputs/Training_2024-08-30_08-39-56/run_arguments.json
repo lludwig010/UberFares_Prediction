@@ -1,0 +1,15 @@
+{
+    "learning_rate": 0.001,
+    "dropout_prob": 0.25,
+    "hidden_layers": [
+        36,
+        24,
+        12,
+        6
+    ],
+    "n_epoch": 500,
+    "batch_size": 256,
+    "device": "GPU",
+    "data_dir": "dataFolder/ProcessedData",
+    "warm_start": null
+}
