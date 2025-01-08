@@ -49,8 +49,6 @@ class MLP(nn.Module):
           if isinstance(layer, nn.Linear):
             #use xavier/glorot initialization for the weights
             nn.init.xavier_uniform_(layer.weight)
-            #print("layer weight")
-            #print(layer.weight)
             #initialize bias to 0
             nn.init.zeros_(layer.bias)
     
